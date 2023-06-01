@@ -10,6 +10,5 @@ serve(async (req) => {
     res = await serveDir(new Request(index, req))
   }
 
-  console.log('res', res)
   return res
 })
